@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+# Add the project root to Python's path so `src` and `app` are importable
+# without an editable install. This matches what conftest.py does as a fallback.
+pythonpath = ["."]
+testpaths = ["tests"]
